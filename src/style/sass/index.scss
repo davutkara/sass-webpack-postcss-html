@@ -1,0 +1,45 @@
+@import "./reset.scss";
+$color-dark: rgb(44, 44, 44);
+$color-white: rgb(240, 240, 240);
+
+body {
+  background-color: $color-dark;
+
+  .main-wrapper {
+    border: 1px solid $color-white;
+    margin: 15px;
+    height: calc(100vh - 32px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .title {
+      vertical-align: middle;
+      font-size: 5vw;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      span {
+        padding: 0.5em 1em;
+      }
+    }
+  }
+}
+
+.bg-white {
+  background: $color-white;
+}
+
+.bg-dark {
+  background: $color-dark;
+}
+
+.text-white {
+  color: $color-white;
+}
+
+.text-dark {
+  color: $color-dark;
+}
+
+.autoprefixer-test {
+  user-select: none;
+}
